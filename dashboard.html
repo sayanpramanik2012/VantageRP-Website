@@ -114,7 +114,7 @@
 					</div>
 
 					<div class="btn-login">
-						<a class="auth submit-info first-popup-link flex-box" rel="leanModal" href="dashboard.html#">Войдите в аккаунт</a>
+						<a class="auth submit-info first-popup-link flex-box" rel="leanModal" href="dashboard.html#">Sign in to your account</a>
 						
 					</div>
 
@@ -199,7 +199,7 @@
 						_token: $('meta[name="csrf-token"]').attr('content'), server: selected_server
 					},
 					beforeSend: function() {
-						$('.dashboard').html(`<div style="text-align: center;"><b>Загрузка..</b></div>`);
+                        $('.dashboard').html(`<div style="text-align: center;"><b>loading..</b></div>`);
 					},
 					success: function(data) {
 						console.log(data);
