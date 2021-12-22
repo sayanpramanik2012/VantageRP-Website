@@ -1,9 +1,7 @@
-https://ragemp.pro/ - Все для RageMP GTA 5, готовые сервера, статьи, моды, стол заказов и др.
-- Готовые сервера
-- Уникальные скрипты
-- Готовые сайты
-- Раздел "Фриланс" (услуги, поиск программистов и заказчиков)
-- Видео-уроки по созданию сервера
-- и др.
-
-https://discord.gg/edAJjWN
+https://ragemp.pro/ - Everything for RageMP GTA 5, ready-made servers, articles, mods, order table, etc.
+- Ready servers
+- Unique scripts
+- Ready sites
+- Section "Freelance" (services, search for programmers and customers)
+- Video tutorials on creating a server
+- and etc.
