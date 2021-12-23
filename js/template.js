@@ -21,22 +21,22 @@ $(document).ready(function () {
 
     function auth_form() {
         
-        $('.title-modal').html('Авторизация');
+        $('.title-modal').html('Authorization');
         $('.cont-modal').html(`
 
             <div class="cont-left">
                 <div class="servers">
-                    <div class="server" data-server="1">Portland</div> <div class="server" data-server="2">Seattle</div>
+                    <div class="server" data-server="1">India</div> <!--<div class="server" data-server="2">Seattle</div>-->
                 </div>
             </div>
         
             <div class="cont-left">
-                <input id="username" type="text" class="inp-info" required><label class="label-info" for="username">Логин</label>
+                <input id="username" type="text" class="inp-info" required><label class="label-info" for="username">Username</label>
             </div>
 
             <div class="cont-left">
-                <label class="img-label" for=""><img src="img/help.svg" alt="" title="Введите ваш пароль"></label>
-                <input id="password" type="password" class="inp-info" required><label class="label-info" for="password">Пароль</label>
+                <label class="img-label" for=""><img src="img/help.svg" alt="" title="Enter your password"></label>
+                <input id="password" type="password" class="inp-info" required><label class="label-info" for="password">Password</label>
                 <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
             </div>
             
@@ -45,11 +45,11 @@ $(document).ready(function () {
             </div>
 
             <div class="btn_action-acc flex-box">
-                <a class="flex-box" href="" id="login">Войти</a>
+                <a class="flex-box" href="" id="login">Login</a>
             </div>
 
             <div class="sub-text_reset flex-box">
-                <a class="flex-box" href="#" id="reset">Восстановить аккаунт</a>
+                <a class="flex-box" href="#" id="reset">Restore Account</a>
             </div>
 
         `);
@@ -63,16 +63,16 @@ $(document).ready(function () {
 
             <div class="cont-left">
                 <div class="servers">
-                    <div class="server" data-server="1">Portland</div> <div class="server" data-server="2">Seattle</div>
+                    <div class="server" data-server="1">India</div> <!--<div class="server" data-server="2">Seattle</div>-->
                 </div>
             </div>
 
             <div class="cont-left">
-                <input id="username" type="text" class="inp-info" required><label class="label-info" for="username">Аккаунт</label>
+                <input id="username" type="text" class="inp-info" required><label class="label-info" for="username">Username</label>
             </div>
 
             <div class="cont-left">
-                <input id="email" type="text" class="inp-info" required><label class="label-info" for="email">Почта</label>
+                <input id="email" type="text" class="inp-info" required><label class="label-info" for="email">Email ID</label>
             </div>
             
             <div class="sub-text_no-acc">
@@ -80,11 +80,11 @@ $(document).ready(function () {
             </div>
 
             <div class="btn_action-acc flex-box">
-                <a class="flex-box" href="" id="reset_btn">Восстановить</a>
+                <a class="flex-box" href="" id="reset_btn">Reset</a>
             </div>
 
             <div class="sub-text_reset flex-box">
-                <a class="flex-box" href="#" id="auth">Вернуться на авторизацию</a>
+                <a class="flex-box" href="#" id="auth">Back to authorization</a>
             </div>
 
         `);
