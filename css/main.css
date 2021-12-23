@@ -2155,7 +2155,7 @@ textarea {
 }
 
 a {
-    color: #337ab7;
+    color: #f0bc11;
     text-decoration: none
 }
 
@@ -3508,7 +3508,7 @@ html {
 }
 
 body {
-    font-size: 16px;
+    font-size: 21px;
     min-width: 320px;
     position: relative;
     line-height: 1.75;
@@ -3994,7 +3994,7 @@ body {
 .main-content .right-side .title h1::before {
     content: " ";
     position: absolute;
-    background: url(../img/title-bg.png) no-repeat 50% 50%;
+    /*background: url(../img/title-bg.png) no-repeat 50% 50%;*/
     width: 670px;
     height: 120px;
     left: -150px;
